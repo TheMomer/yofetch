@@ -8,10 +8,10 @@ Yofetch is my fetch, with a config on Lua API.
 
 # Platforms
 
-![Linux](https://img.shields.io/badge/Linux-grey?style=for-the-badge&logo=linux)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Windows](https://custom-icon-badges.demolab.com/badge/Windows%2010-0033a6.svg?logo=windows10&logoColor=white&style=for-the-badge)
 ![FreeBSD](https://img.shields.io/badge/FreeBSD-orange?style=for-the-badge&logo=freebsd)
-![macOS](https://img.shields.io/badge/macOS-black?style=for-the-badge&logo=apple)
+![macOS](https://img.shields.io/badge/macOS-555555?style=for-the-badge&logo=apple&logoColor=white)
 
 # Lua API config info
 
