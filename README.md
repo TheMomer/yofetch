@@ -1,7 +1,9 @@
 # Yofetch
 Yofetch is my fetch on Go, with a config on Lua API.
 
-Information about the config API can be found in the “Yofetch Lua config info” section.
+https://img.shields.io/github/license/TheMomer/yofetch?style=for-the-badge
+https://img.shields.io/badge/Made%20with-Go-blue?style=for-the-badge&logo=go
+https://img.shields.io/github/forks/TheMomer/yofetch?style=for-the-badge
 
 # Yofetch Lua config info
 
