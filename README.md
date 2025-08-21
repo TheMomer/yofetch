@@ -5,7 +5,7 @@ Yofetch is my fetch, with a config on Lua API.
 ![Made with Go](https://img.shields.io/badge/Made%20with-Go-blue?style=for-the-badge&logo=go)
 ![Forks](https://img.shields.io/github/forks/TheMomer/yofetch?style=for-the-badge)
 
-# Yofetch Lua config info
+# Lua API config info
 
 ## Functions
 | Function name       | Value type           | Description                                  | Example                    |
