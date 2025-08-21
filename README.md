@@ -4,6 +4,14 @@ Yofetch is my fetch, with a config on Lua API.
 ![License](https://img.shields.io/github/license/TheMomer/yofetch?style=for-the-badge)
 ![Made with Go](https://img.shields.io/badge/Made%20with-Go-blue?style=for-the-badge&logo=go)
 ![Forks](https://img.shields.io/github/forks/TheMomer/yofetch?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/TheMomer/yofetch?style=for-the-badge)
+
+# Platforms
+
+![Linux](https://img.shields.io/badge/Linux-grey?style=for-the-badge&logo=linux)
+![Windows](https://img.shields.io/badge/Windows-blue?style=for-the-badge&logo=windows11)
+![FreeBSD](https://img.shields.io/badge/FreeBSD-orange?style=for-the-badge&logo=freebsd)
+![macOS](https://img.shields.io/badge/macOS-black?style=for-the-badge&logo=apple)
 
 # Lua API config info
 
