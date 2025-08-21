@@ -1,5 +1,5 @@
 # Yofetch
-Yofetch is my fetch on Go, with a config on Lua API.
+Yofetch is my fetch, with a config on Lua API.
 
 ![License](https://img.shields.io/github/license/TheMomer/yofetch?style=for-the-badge)
 ![Made with Go](https://img.shields.io/badge/Made%20with-Go-blue?style=for-the-badge&logo=go)
