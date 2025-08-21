@@ -14,13 +14,15 @@ import (
 	"strings"
 	"unicode/utf8"
 
+	"path/filepath"
+
 	"github.com/spf13/pflag"
 	lua "github.com/yuin/gopher-lua"
 )
 
 // Setting the constants
 const (
-	Version string = "v0.1.0-alpha"
+	Version string = "v0.2.0-alpha"
 
 	//License = "MIT"
 	//Creator = "TheMomer"
@@ -465,8 +467,11 @@ func printLogoWithInfo(logo, info string, distance, paddingLeft, paddingTop int)
 
 // Main function
 func main() {
+	// Path to home folder
+	home, _ := os.UserHomeDir()
+
 	// Arguments
-	pflag.StringVarP(&config, "config", "c", "./config.lua", "path to config")
+	pflag.StringVarP(&config, "config", "c", filepath.Join(home, ".config", "yofetch", "config.lua"), "path to config")
 	pflag.StringVarP(&configArgs, "config-args", "a", "", "args for config")
 	pflag.BoolVarP(&version, "version", "v", false, "show version")
 	pflag.BoolVarP(&debug, "debug", "d", false, "enable debug")
