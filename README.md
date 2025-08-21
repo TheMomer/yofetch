@@ -30,7 +30,7 @@ Yofetch is my fetch, with a config on Lua API.
 |----------------------|------------------|-------------------------------------------|
 | `version`            | Lua string       | Stores a version of Yofetch               |
 | `default_mode`       | Lua int          | Stores a default mode                     |
-| `config_args`        | lua string       | Config arguments passed via `-a` CLI flag |
+| `config_args`        | Lua string       | Config arguments passed via `-a` CLI flag |
 
 ## Colors
 | Color ID                | Color type     |
