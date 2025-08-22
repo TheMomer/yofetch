@@ -6,8 +6,6 @@ Yofetch is my system fetcher with configuration via the Lua API.
 ![Forks](https://img.shields.io/github/forks/TheMomer/yofetch?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/TheMomer/yofetch?style=for-the-badge)
 
-# Platforms
-
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0033a6.svg?logo=windows10&logoColor=white&style=for-the-badge)
 ![macOS](https://img.shields.io/badge/macOS-555555?style=for-the-badge&logo=apple&logoColor=white)
