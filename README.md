@@ -1,5 +1,5 @@
 # Yofetch
-Yofetch is my system fetcher with configuration via the Lua API.
+Yofetch is a system fetch tool with configuration via the Lua API.
 
 ![Yofetch with my config](screenshot.png)
 
@@ -19,5 +19,5 @@ Information about the API configuration can be found ![here](LuaConfigInfo.md).
 ![macOS](https://img.shields.io/badge/macOS-555555?style=for-the-badge&logo=apple&logoColor=white)
 ![FreeBSD](https://img.shields.io/badge/FreeBSD-red?style=for-the-badge&logo=freebsd)
 
-- Linux: prebuilt binaries available in releases, or you can compile from source.
-- Windows, macOS, FreeBSD: manual compilation only.
+- Linux x64: prebuilt binaries available in releases, or you can compile from source.
+- Windows, macOS, FreeBSD: currently requires manual compilation.
