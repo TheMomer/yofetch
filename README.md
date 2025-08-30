@@ -21,3 +21,6 @@ Information about the API configuration can be found ![here](LuaConfigInfo.md).
 
 - Linux x64: prebuilt binaries available in releases, or you can compile from source.
 - Windows, macOS, FreeBSD: currently requires manual compilation.
+
+---
+Pull requests are allowed, but please don't break the speed and minimalism.
