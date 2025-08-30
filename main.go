@@ -1,5 +1,6 @@
 // Copyright (c) 2025 TheMomer.
 // Licensed under the MIT License.
+// Contributors: AnmiTaliDev - security improvements
 
 package main
 
@@ -22,7 +23,7 @@ import (
 
 // Setting the constants
 const (
-	Version string = "v0.2.0-alpha"
+	Version string = "v0.2.2-alpha"
 
 	//License = "MIT"
 	//Creator = "TheMomer"
@@ -237,6 +238,17 @@ func RegisterModule(L *lua.LState, name string, methods map[string]lua.LGFunctio
 
 // Function for loading the config
 func loadConfig(filename string, configArgs string) (*Config, error) {
+	// Validate and clean the config file path to prevent path traversal
+	cleanPath, err := filepath.Abs(filename)
+	if err != nil {
+		return nil, fmt.Errorf("invalid config path: %w", err)
+	}
+	
+	// Check if file exists and is accessible
+	if _, err := os.Stat(cleanPath); err != nil {
+		return nil, fmt.Errorf("config file not accessible: %w", err)
+	}
+	
 	L := lua.NewState()
 	defer L.Close()
 
@@ -358,7 +370,7 @@ func loadConfig(filename string, configArgs string) (*Config, error) {
 
 	// Execute the configuration file
 	echoMsg("Debug mode (config)", "executing config file...", "debug")
-	err := L.DoFile(filename)
+	err = L.DoFile(cleanPath)
 
 	if err != nil {
 		return nil, fmt.Errorf("Lua config error:\n%w", err)
@@ -468,7 +480,11 @@ func printLogoWithInfo(logo, info string, distance, paddingLeft, paddingTop int)
 // Main function
 func main() {
 	// Path to home folder
-	home, _ := os.UserHomeDir()
+	home, err := os.UserHomeDir()
+	if err != nil {
+		echoMsg("Error getting home directory", err, "err")
+		os.Exit(1)
+	}
 
 	// Arguments
 	pflag.StringVarP(&config, "config", "c", filepath.Join(home, ".config", "yofetch", "config.lua"), "path to config")
