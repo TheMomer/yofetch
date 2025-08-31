@@ -31,9 +31,10 @@ Information about the API configuration can be found [here](LuaConfigInfo.md).
 
 ## Tested OS
 - Linux:
-  - Arch Linux x64
+  - Arch Linux x64 - all good
 - Windows:
-  - Windows 10 22H2 x64
+  - Windows 10 22H2 x64 - all good
+  - Windows 10 21H2 x64 - all good
 
 # Contributing
 Pull requests are welcome - please keep speed and minimalism in mind.  
