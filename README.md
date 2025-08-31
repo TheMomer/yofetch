@@ -1,7 +1,7 @@
 # Yofetch
 Yofetch is a system fetch tool with configuration via the Lua API.
 
-![Yofetch with my config](screenshot.png)
+[![Yofetch with my config](screenshot.png)](configs/example_config_linux_glibc.lua)
 
 ![License](https://img.shields.io/github/license/TheMomer/yofetch?style=for-the-badge)
 ![Made with Go](https://img.shields.io/badge/Made%20with-Go-blue?style=for-the-badge&logo=go)
