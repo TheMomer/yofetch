@@ -31,7 +31,7 @@ Information about the API configuration can be found [here](LuaConfigInfo.md).
 
 ## Tested OS
 - Linux:
-  - Arch Linux x64
+  - Arch Linux glibc x64
 
 # Contributing
 Pull requests are welcome - please keep speed and minimalism in mind.  
