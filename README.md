@@ -1,5 +1,5 @@
 # Yofetch
-Yofetch is a system fetch tool with configuration via the Lua API.
+Yofetch is a fast, minimal system fetch tool written in Go.
 
 [![Yofetch with my config](screenshot.png)](configs/example_config_linux_glibc.lua)
 
@@ -10,17 +10,30 @@ Yofetch is a system fetch tool with configuration via the Lua API.
 ![Forks](https://img.shields.io/github/forks/TheMomer/yofetch?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/TheMomer/yofetch?style=for-the-badge)
 
-Information about the API configuration can be found ![here](LuaConfigInfo.md).
+Information about the API configuration can be found [here](LuaConfigInfo.md).
 
----
+## Features
+- Fast & portable
+- Configurable via Lua API
+- Minimal dependencies
+- Cross-platform
+
+> Dependencies: [pflag](https://github.com/spf13/pflag), [gopher-lua](https://github.com/yuin/gopher-lua)
+
+# Platforms
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0033a6.svg?logo=windows10&logoColor=white&style=for-the-badge)
 ![macOS](https://img.shields.io/badge/macOS-555555?style=for-the-badge&logo=apple&logoColor=white)
 ![FreeBSD](https://img.shields.io/badge/FreeBSD-red?style=for-the-badge&logo=freebsd)
 
-- Linux x64: prebuilt binaries available in releases, or you can compile from source.
-- Windows, macOS, FreeBSD: currently requires manual compilation.
+- Linux x64: prebuilt binaries available.  
+- Windows, macOS, FreeBSD: manual compilation required.
 
----
-Pull requests are allowed, but please don't break the speed and minimalism.
+## Tested OS
+- Linux:
+  - Arch Linux x64
+
+# Contributing
+Pull requests are welcome - please keep speed and minimalism in mind.  
+Report issues [here](https://github.com/TheMomer/yofetch/issues).
