@@ -39,7 +39,7 @@ Information about the API configuration can be found [here](LuaConfigInfo.md).
   - Windows 8.1 build 9600 - all good (but PowerShell 4.0 and cmd do not support ANSI color codes)
   - Windows 7 SP1 x64 - not working ("Exception 0xc0000005")
   - Windows XP SP2 x64 - not working ("yofetch.exe is not a valid Win32 application")
-- Unix:
+- macOS:
   - macOS Sonoma 14.7.8 x64 - all good
 
 ### Note
