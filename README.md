@@ -44,7 +44,7 @@ Information about the API configuration can be found [here](LuaConfigInfo.md).
 
 ### Note
 - On Windows 10/11, run Yofetch in [Windows Terminal](https://github.com/microsoft/terminal), since cmd does not support ANSI color codes.
-- On Linux, run Yofetch in modern terminal emulators with True Color support, since older terminals may not fully support ANSI color codes.
+- On Linux/macOS, run Yofetch in modern terminal emulators with True Color support, since older terminals may not fully support ANSI color codes.
 
 # Contributing
 Pull requests are welcome - please keep speed and minimalism in mind.  
