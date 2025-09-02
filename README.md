@@ -29,20 +29,7 @@ Information about the API configuration can be found [here](LuaConfigInfo.md).
 - Linux x64: prebuilt binaries available.  
 - Windows, macOS, FreeBSD: manual compilation required.
 
-## Tested OS
-- Linux:
-  - Arch Linux x64 - all good
-  - Debian 13 Trixie x64 - all good
-- Windows:
-  - Windows 10 22H2 x64 - all good
-  - Windows 10 21H2 x64 - all good
-  - Windows 8.1 build 9600 - all good (but PowerShell 4.0 and cmd do not support ANSI color codes)
-  - Windows 7 SP1 x64 - not working ("Exception 0xc0000005")
-  - Windows XP SP2 x64 - not working ("yofetch.exe is not a valid Win32 application")
-- macOS:
-  - macOS Sonoma 14.7.8 x64 - all good
-
-### Note
+## Note
 - On Windows 10/11, run Yofetch in [Windows Terminal](https://github.com/microsoft/terminal), since cmd does not support ANSI color codes.
 - On Linux/macOS, run Yofetch in modern terminal emulators with True Color support, since older terminals may not fully support ANSI color codes.
 
